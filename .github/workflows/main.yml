@@ -1,18 +1,23 @@
-name: scp files
-on: [push]
-jobs:
+name: FTP Deployment
 
-  build:
-    name: Build
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v4
-    - name: copy file via ssh password
-      uses: appleboy/scp-action@v0.1.7
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        source: "public/"
-        target: /kmyr.de/httpdocs/
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy over FTP
+        uses: SamKirkland/FTP-Deploy-Action@3.2.0
+        with:
+          server: -server-
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          server-dir: /kmyr.de/httpdocs/
+          local-dir: ./public
