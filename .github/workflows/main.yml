@@ -1,23 +1,16 @@
 name: FTP Deployment
-
-on:
-  push:
-    branches:
-      - main
-
+on: push
 jobs:
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Deploy over FTP
-        uses: SamKirkland/FTP-Deploy-Action@3.2.0
-        with:
-          server: -server-
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          server-dir: /kmyr.de/httpdocs/
-          local-dir: ./public
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: hosting195141.ae936.netcup.net
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
