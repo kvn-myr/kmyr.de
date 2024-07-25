@@ -44,6 +44,13 @@
       <description>Defense and detection in depth I have given a presentation at the Ninth EU MITRE ATT&amp;amp;CK® Community Workshop June 2, 2022 on this topic. Recordings are not available. However, you can find the presentation on the workshop website.&#xA;The MITRE ATT&amp;amp;CK™ framework is used by SOCs (Security Operation Center), CERTs (Computer Emergency Response Team), and various other security teams in different organizations. It enables the description of tactics and techniques of various threats.</description>
     </item>
     <item>
+      <title>About &amp; Impressum</title>
+      <link>https://kmyr.de/about/</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://kmyr.de/about/</guid>
+      <description>Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.&#xA;My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.&#xA;I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY.</description>
+    </item>
+    <item>
       <title>Securware Tutorial 2021: Automotive Forensics - A Hands-on Showcase</title>
       <link>https://kmyr.de/posts/securware-tutorial-2021/</link>
       <pubDate>Mon, 15 Nov 2021 16:01:55 +0100</pubDate>
