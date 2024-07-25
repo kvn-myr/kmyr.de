@@ -14,3 +14,5 @@ jobs:
         server: hosting195141.ae936.netcup.net
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
+        server-dir: /kmyr.de/httpdocs
+        local-dir: ./public
