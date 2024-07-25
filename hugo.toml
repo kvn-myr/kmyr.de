@@ -15,7 +15,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 #homeIntroTitle = 'Welcome to my website!'
 homeIntroContent = """
-Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.
+My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.
 
 My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.
 
