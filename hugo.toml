@@ -1,3 +1,72 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://kmyr.de/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Kevin Mayer - Personal Website'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+#homeIntroTitle = 'Welcome to my website!'
+homeIntroContent = """
+Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.
+
+My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.
+
+I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY. My research focus is on automotive digital forensics and vehicle security operation centers.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "ORCiD"
+url = "https://orcid.org/0000-0002-5597-3913"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kvn-myr"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
