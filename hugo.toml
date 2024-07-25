@@ -1,6 +1,6 @@
 baseURL = 'https://kmyr.de/'
 languageCode = 'en-us'
-title = 'Kevin Mayer - Personal Website'
+title = 'Kevin Mayer'
 theme = 'typo'
 
 [taxonomies]
