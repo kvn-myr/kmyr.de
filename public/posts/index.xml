@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Kevin Mayer</title>
-    <link>https://kmyr.de/</link>
-    <description>Recent content in Home on Kevin Mayer</description>
+    <title>Posts on Kevin Mayer</title>
+    <link>https://kmyr.de/posts/</link>
+    <description>Recent content in Posts on Kevin Mayer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jul 2024 13:37:43 +0200</lastBuildDate>
-    <atom:link href="https://kmyr.de/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kmyr.de/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ARES 2024 publication</title>
       <link>https://kmyr.de/posts/ares-2024/</link>

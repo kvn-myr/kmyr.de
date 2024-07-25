@@ -2,7 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kmyr.de/posts/ares-2024/</loc>
+    <lastmod>2024-07-25T13:37:43+02:00</lastmod>
+  </url><url>
     <loc>https://kmyr.de/</loc>
+    <lastmod>2024-07-25T13:37:43+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/</loc>
+    <lastmod>2024-07-25T13:37:43+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/it-for-law/</loc>
+    <lastmod>2024-02-15T10:57:30+01:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/dagstuhl23241/</loc>
+    <lastmod>2024-02-05T10:52:48+01:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/37c3/</loc>
+    <lastmod>2023-12-27T16:03:04+01:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/defense-in-depth/</loc>
+    <lastmod>2022-06-02T10:06:20+00:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/securware-tutorial-2021/</loc>
+    <lastmod>2021-11-15T16:01:55+01:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/securware-2021/</loc>
+    <lastmod>2021-11-05T22:12:07+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/escar-2021/</loc>
+    <lastmod>2021-10-11T09:31:07+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/dud-2021/</loc>
+    <lastmod>2021-05-11T09:31:07+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/dfrws-2021/</loc>
+    <lastmod>2021-02-17T09:31:07+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/r2con-2020/</loc>
+    <lastmod>2020-11-05T09:31:07+02:00</lastmod>
+  </url><url>
+    <loc>https://kmyr.de/posts/cs3sthlm/</loc>
+    <lastmod>2020-03-09T12:28:16+00:00</lastmod>
   </url><url>
     <loc>https://kmyr.de/tags/</loc>
   </url>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width"><meta name="description" content="Publication for 19th escar Europe" />
+
+<title>
+    
+    Structured methodology and survey to evaluate data completeness in automotive digital forensics | Kevin Mayer
+    
+</title>
+
+<link rel="canonical" href="https://kmyr.de/posts/escar-2021/" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.a6824bbee0d90d5af09fed9b70395ce7076b615e315037455d903314e96ef91b.css" media="all">
+
+
+
+
+  
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">Kevin Mayer</h1>
+
+    <div class="flex">
+        
+
+        
+        
+        <p class="small ">
+            <a href="/">
+                /home
+            </a>
+        </p>
+        
+        <p class="small ">
+            <a href="/posts">
+                /posts
+            </a>
+        </p>
+        
+        <p class="small ">
+            <a href="/about">
+                /about
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/posts/escar-2021/">Structured methodology and survey to evaluate data completeness in automotive digital forensics</a>
+</div>
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">Structured methodology and survey to evaluate data completeness in automotive digital forensics</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2021-10-11T09:31:07&#43;02:00">October 11, 2021</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <h1 id="structured-methodology-and-survey-to-evaluate-data-completeness-in-automotive-digital-forensics">Structured methodology and survey to evaluate data completeness in automotive digital forensics</h1>
+<h2 id="abstract">Abstract</h2>
+<p>The collection and analysis of potential evidence in digital forensic investigations is a challenging task that made its arrival in the automotive domain. It is accompanied by increasingly complex in-vehicle components with high diversity in used technologies and a wide range of external interconnections — which raises the question of what sources of information in which formats are even available for any analysis. The main contribution of this paper is an answer to this question as well as a cross-domain methodology to validate the completeness of the results in a structured way. We introduce a three-step process. It starts with a brainstorming session to create an initial basis of knowledge in a specific area of research. In a second step, system archaeology analyses are employed to establish an advanced knowledge base stemming from design documents and similar resources. The second step widens and deepens the knowledge and provides means to evaluate the quality of the brainstorming session results. The third step establishes expert analyses. Relevant automotive digital forensics stakeholders (e.g., OEMs, suppliers, etc.) were interviewed to collect information from expert groups and evaluate both initial phases. Based on this analytical, syntactic, inductive, and systematic research method, we offer a complete perspective for a specific area of research. The presented methodology is implemented to identify a complete set of data formats in automotive digital forensics. We conducted an online survey to evaluate data formats and tools in digital forensics with 56 experts participating and identified a total of 60 different data formats used in this domain.</p>
+<h2 id="conference">Conference</h2>
+<p><a href="https://www.escar.info/escar-europe.html">19th escar Europe</a></p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://hss-opus.ub.rub.de/opus4/frontdoor/index/index/docId/8351">Paper URL</a></li>
+<li><a href="https://doi.org/10.13154/294-8351">DOI</a></li>
+<li><a href="https://github.com/k-gomez/adf-survey-2021">Survey Data</a></li>
+</ul>
+<h2 id="survey-results">Survey results</h2>
+<p>The survey results can be found on my <a href="https://github.com/k-gomez/adf-survey-2021">corresponding Github repository</a>. There are all results to reproduce results shown in the <a href="https://hss-opus.ub.rub.de/opus4/frontdoor/index/index/docId/8351">paper</a>.</p>
+<p>However, here are some findings of the survey. Category referes to the survey section:</p>
+<table>
+<thead>
+<tr>
+<th>Data format</th>
+<th>Category</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.dd</td>
+<td>Free mentions (uncathegorized)</td>
+<td>raw dd file</td>
+</tr>
+<tr>
+<td>.raw</td>
+<td>Free mentions (uncathegorized)</td>
+<td>raw memory dump</td>
+</tr>
+<tr>
+<td>.l01</td>
+<td>Free mentions (uncathegorized)</td>
+<td>EnCase forensics software</td>
+</tr>
+<tr>
+<td>.dmg</td>
+<td>Free mentions (uncathegorized)</td>
+<td>Apple Disk Image file</td>
+</tr>
+<tr>
+<td>.ivs</td>
+<td>Free mentions (uncathegorized)</td>
+<td>files contain initial vectors for stream analytic</td>
+</tr>
+<tr>
+<td>.vdr</td>
+<td>Free mentions (uncathegorized)</td>
+<td>Example: <a href="https://www.haleproducts.com/vehicle-data-recorder-vdr-system">https://www.haleproducts.com/vehicle-data-recorder-vdr-system</a></td>
+</tr>
+<tr>
+<td>.ewf</td>
+<td>Free mentions (uncathegorized)</td>
+<td>Expert witness file: <a href="https://www.youtube.com/watch?v=3S-joLMbDGo">https://www.youtube.com/watch?v=3S-joLMbDGo</a></td>
+</tr>
+<tr>
+<td>.aff</td>
+<td>Free mentions (uncathegorized)</td>
+<td>advance forensics file format</td>
+</tr>
+<tr>
+<td>MIB-Traces</td>
+<td>Free mentions (uncathegorized)</td>
+<td>Java Logs</td>
+</tr>
+<tr>
+<td>.mem</td>
+<td>Free mentions (uncathegorized)</td>
+<td>memory dump</td>
+</tr>
+<tr>
+<td>.vmem</td>
+<td>Free mentions (uncathegorized)</td>
+<td>virtual memory dump</td>
+</tr>
+<tr>
+<td>.img</td>
+<td>Free mentions (uncathegorized)</td>
+<td>image file</td>
+</tr>
+<tr>
+<td>.aff4</td>
+<td>Free mentions (uncathegorized)</td>
+<td>advance forensics file format new version</td>
+</tr>
+<tr>
+<td>.a01</td>
+<td>Free mentions (uncathegorized)</td>
+<td>ALZip by ESTsoft. But could be a typo for e01 files that are &ldquo;Expert Witness compression Format&rdquo; disk image file</td>
+</tr>
+<tr>
+<td>Capture from CAN-bus</td>
+<td>Free mentions (uncathegorized)</td>
+<td>usually .pcap or .pcappng</td>
+</tr>
+<tr>
+<td>.sqlite</td>
+<td>Free mentions (uncathegorized)</td>
+<td>.sqlite files from SQL databases</td>
+</tr>
+<tr>
+<td>.mp4</td>
+<td>Free mentions (uncathegorized)</td>
+<td>files from onboard camera</td>
+</tr>
+<tr>
+<td>.lef</td>
+<td>Free mentions (uncathegorized)</td>
+<td>EnCase Logical Evidence Data**</td>
+</tr>
+<tr>
+<td>.odx</td>
+<td>Free mentions (uncathegorized)</td>
+<td>BizTalk Server Orchestration File which was developed by Microsoft</td>
+</tr>
+<tr>
+<td>.pdx</td>
+<td>Free mentions (uncathegorized)</td>
+<td>Index file created by Adobe Acrobat, a document creator and viewer program; contains an index of documents and directories</td>
+</tr>
+<tr>
+<td>.bin</td>
+<td>Free mentions (uncathegorized)</td>
+<td>binary data</td>
+</tr>
+<tr>
+<td>.no</td>
+<td>Free mentions (uncathegorized)</td>
+<td>unknown</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Data format / Tool / Source</th>
+<th>Automotive component</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OEM Diagnostic tool read-out report or printscreens</td>
+<td>Battery related systems</td>
+</tr>
+<tr>
+<td>V2GTP used for charge control between car and charge point</td>
+<td>Battery related systems</td>
+</tr>
+<tr>
+<td>RTM data format used in China</td>
+<td>Battery related systems</td>
+</tr>
+<tr>
+<td>Memory dumps created by using debugging interfaces, such as JTAG, on the hardware component</td>
+<td>Battery related systems</td>
+</tr>
+<tr>
+<td>Diagnostic Trouble Code Readings</td>
+<td>Battery related systems</td>
+</tr>
+<tr>
+<td>WLAN</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>5G</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>obd dongle</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>BLE</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>backend</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>PDX</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>ODX</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>lime/avml memdumps</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>mobile</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>ProtoBuf</td>
+<td>End-point devices</td>
+</tr>
+<tr>
+<td>NAND flash dump</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>HTTP RESTfull</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>MQTT</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>802.11p</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>HTTP(S) HTML based</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>ProtoBuf</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>tcu</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>wave</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>PTP gPTP SyncE</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>Text Logs</td>
+<td>Telematics control unit</td>
+</tr>
+<tr>
+<td>NOR flash dump (for example Audi MMI and BMW CIC)</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>BT4, BT5, BTLE</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>MMC</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>Franca IDL</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>A2B</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>SOME/IP</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>if linux-based: memdumps as above</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>any media files and their metadata</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>Sync Gen 3</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>info 3.5 GM</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>binary images</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>Text Logs</td>
+<td>Infotainment</td>
+</tr>
+<tr>
+<td>TomTology extraction</td>
+<td>External navigation system</td>
+</tr>
+<tr>
+<td>becker</td>
+<td>External navigation system</td>
+</tr>
+<tr>
+<td>wayteq</td>
+<td>External navigation system</td>
+</tr>
+<tr>
+<td>Last Destinations Database</td>
+<td>External navigation system</td>
+</tr>
+<tr>
+<td>POI Database</td>
+<td>External navigation system</td>
+</tr>
+<tr>
+<td>OEM Diagnostic tool read-out report or printscreens</td>
+<td>Comfort system</td>
+</tr>
+<tr>
+<td>NPDU</td>
+<td>Comfort system</td>
+</tr>
+<tr>
+<td>OEM Diagnostic tool read-out report or printscreens</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>BTLE</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>NFC</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>Mobile Device Key Message Format defined by Car Connectivity Consortium</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>CCC Key protocols</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>No. of registered keys</td>
+<td>Immobilizer system</td>
+</tr>
+<tr>
+<td>OEM Diagnostic tool read-out report or printscreens</td>
+<td>Gateway</td>
+</tr>
+<tr>
+<td>Autosar Routing Spec</td>
+<td>Gateway</td>
+</tr>
+<tr>
+<td>L2 Ethernet Gateways</td>
+<td>Gateway</td>
+</tr>
+<tr>
+<td>Communication Logs (Tesla)</td>
+<td>Gateway</td>
+</tr>
+<tr>
+<td>Lane assist</td>
+<td>Safety monitoring system</td>
+</tr>
+<tr>
+<td>Automatic braking</td>
+<td>Safety monitoring system</td>
+</tr>
+<tr>
+<td>NAND flash dump</td>
+<td>eCall</td>
+</tr>
+<tr>
+<td>eCall report from dispatcher (court order)</td>
+<td>eCall</td>
+</tr>
+<tr>
+<td>GPS &ldquo;Perlenschnur&rdquo;</td>
+<td>eCall</td>
+</tr>
+<tr>
+<td>eCall SMS</td>
+<td>eCall</td>
+</tr>
+<tr>
+<td>Gen 11 GM</td>
+<td>Airbag</td>
+</tr>
+<tr>
+<td>Crashdata (EEPROM)</td>
+<td>Airbag</td>
+</tr>
+<tr>
+<td>DTCs</td>
+<td>Airbag</td>
+</tr>
+</tbody>
+</table>
+
+    
+  </div>
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/posts/dud-2021/">
+                        Überwachung in modernen Fahrzeugen
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/securware-2021/">
+                        Identification of Automotive Digital Forensics Stakeholders
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      <p>Powered by
+    <a href="https://gohugo.io/">Hugo</a>
+    and
+    <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+</p>
+
+
+    </footer>
+
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
