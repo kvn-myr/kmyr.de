@@ -1,7 +1,7 @@
 +++
 title = "About & Impressum"
 description = "About page"
-date = "2024-08-06"
+date = "2024-08-07"
 author = "Kevin Mayer"
 +++
 
