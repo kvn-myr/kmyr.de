@@ -6,8 +6,22 @@
     <description>Recent content in Home on Kevin Mayer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2024 13:37:43 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kmyr.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About &amp; Impressum</title>
+      <link>https://kmyr.de/about/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmyr.de/about/</guid>
+      <description>Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.&#xA;My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.&#xA;I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY.</description>
+    </item>
+    <item>
+      <title>Supervision</title>
+      <link>https://kmyr.de/supervision/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmyr.de/supervision/</guid>
+      <description>Type Title Name Year Link B.Sc. Visualization of Contextual Information in the Field of Automotive Digital Forensics Julian Marius Gänsbauer 2022 Thesis B.Sc. Project Development of a technical cyber security concept for comfort electronics in the automotive environment in compliance with UNECE R155 Christian Körber 2023 Thesis B.Sc. KI-basiert versus klassisch - File Carving in der digitalen Fahrzeugforensik Lea Achter 2024 Thesis Pro. Seminar What is the impact of AI used in digital forensics?</description>
+    </item>
     <item>
       <title>ARES 2024 publication</title>
       <link>https://kmyr.de/posts/ares-2024/</link>
@@ -42,13 +56,6 @@
       <pubDate>Thu, 02 Jun 2022 10:06:20 +0000</pubDate>
       <guid>https://kmyr.de/posts/defense-in-depth/</guid>
       <description>Defense and detection in depth I have given a presentation at the Ninth EU MITRE ATT&amp;amp;CK® Community Workshop June 2, 2022 on this topic. Recordings are not available. However, you can find the presentation on the workshop website.&#xA;The MITRE ATT&amp;amp;CK™ framework is used by SOCs (Security Operation Center), CERTs (Computer Emergency Response Team), and various other security teams in different organizations. It enables the description of tactics and techniques of various threats.</description>
-    </item>
-    <item>
-      <title>About &amp; Impressum</title>
-      <link>https://kmyr.de/about/</link>
-      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://kmyr.de/about/</guid>
-      <description>Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.&#xA;My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.&#xA;I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY.</description>
     </item>
     <item>
       <title>Securware Tutorial 2021: Automotive Forensics - A Hands-on Showcase</title>
