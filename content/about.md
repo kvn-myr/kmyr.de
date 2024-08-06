@@ -23,6 +23,7 @@ I am working at the CARISSMA Institute of Electric, Connected and Secure Mobilit
 
 | | | |
 | ------| -----------| --------: |
+| Associated researcher | Friedrich-Alexander-University Erlangen-Nürnberg, Germany | 2024--present |
 | Research associate | CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS), Germany | 2022--present |
 | Security incident repsonse, threat intelligence, and content engineering | AUDI AG, Germany | 2018--2022 | 
 | Security research | Airbus Defence and Space, Germany | 2016--2018 | 
