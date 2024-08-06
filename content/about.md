@@ -15,7 +15,7 @@ I am working at the CARISSMA Institute of Electric, Connected and Secure Mobilit
 
 | | | |
 | ------| -----------| --------: |
-|  PhD candidate in the area of automotive digital forensics | Technical University Ingolstadt and Friedrich-Alexander-University Erlangen-Nürnberg (FAU) | 2019--2023 (defended on December 15th, 2023 | 
+|  PhD in the area of automotive digital forensics | Technical University Ingolstadt and Friedrich-Alexander-University Erlangen-Nürnberg (FAU) | 2019--2023 (defended on December 15th, 2023 | 
 |  Master of Science (M.Sc.), [Download Thesis](/thesis/automotive-forensic-PUBLIC.pdf) | Technical University Ingolstadt | 2018--2020 | 
 |  Bachelor of Science (B.Sc.), [Download Thesis](/thesis/Bachelorarbeit-Buquerin.pdf) | Technical University Ingolstadt | 2014--2018| 
 
