@@ -36,9 +36,9 @@ I am working at the CARISSMA Institute of Electric, Connected and Secure Mobilit
 | - | -: |
 | [Digitalcourage e.V.](https://digitalcourage.de/) | 2023--present |
 | [Gesellschaft für Informatik](https://gi.de/) | 2023--present | 
-| [Neuland e.V.](https://neuland-ingolstadt.de/)) | 2022--present | 
-| [German Chapter of the ACM e.V.](https://germany.acm.org)) | 2021--2024 | 
-| [Chaos Computer Club](https://www.ccc.de/en/club)) | 2020--present | 
+| [Neuland e.V.](https://neuland-ingolstadt.de/) | 2022--present | 
+| [German Chapter of the ACM e.V.](https://germany.acm.org) | 2021--2024 | 
+| [Chaos Computer Club](https://www.ccc.de/en/club) | 2020--present | 
 
 
 ## Academic experiences
