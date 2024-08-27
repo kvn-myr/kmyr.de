@@ -29,20 +29,28 @@ I am working at the CARISSMA Institute of Electric, Connected and Secure Mobilit
 | Security research | Airbus Defence and Space, Germany | 2016--2018 | 
 | Software development | BIVAL GmbH | 2015--2016| 
 
+
 ## Memberships
 
 | | |
 | - | -: |
-| Neuland e.V. ([Website](https://neuland-ingolstadt.de/)) | 2022--present | 
-| German Chapter of the ACM e.V. ([Website](https://germany.acm.org)) | 2021--present | 
-| Chaos Computer Club ([Website](https://www.ccc.de/en/club)) | 2020--present | 
+| [Digitalcourage e.V.](https://digitalcourage.de/) | 2023--present |
+| [Gesellschaft für Informatik](https://gi.de/) | 2023--present | 
+| [Neuland e.V.] https://neuland-ingolstadt.de/)) | 2022--present | 
+| [German Chapter of the ACM e.V.](https://germany.acm.org)) | 2021--2024 | 
+| [Chaos Computer Club](https://www.ccc.de/en/club)) | 2020--present | 
 
-## Academic administration
+
+## Academic experiences
 
 | | |
-| - | -: |
-| Chair of the special track *AUTOSEC: Automotive Security* at the [IARA SECURWARE 2022](https://www.iaria.org/conferences2022/SECURWARE22.html) | 2022 |
-| Organization committee of the [ACM CSCS](https://acm-cscs.org/) | 2020--present | 
+| - | - |
+| [DFRWS](https://dfrws.org/) PC member | 2024--present | 
+| [DFRWS](https://dfrws.org/) APAC reviewer | 2024--present |
+| [DFRWS](https://dfrws.org/) EU reviewer | 2022--present | 
+| [SECURWARE](https://iaria.org/conferences/SECURWARE.html) conference | 2022, 2024 |
+| Organization committee of the [ACM CSCS](https://acm-cscs.org/) | 2020--2022| 
+
 
 ## Public speaker
 

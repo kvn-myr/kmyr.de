@@ -6,8 +6,15 @@
     <description>Recent content in Home on Kevin Mayer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kmyr.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About &amp; Impressum</title>
+      <link>https://kmyr.de/about/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://kmyr.de/about/</guid>
+      <description>Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.&#xA;My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.&#xA;I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY.</description>
+    </item>
     <item>
       <title>Supervision</title>
       <link>https://kmyr.de/supervision/</link>
