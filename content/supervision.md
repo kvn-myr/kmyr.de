@@ -5,7 +5,7 @@ date = "2024-08-06"
 author = "Kevin Mayer"
 +++
 
-I supervise various topics in the following topics:
+I supervise various topics in the following domains:
 - Digital forensics
 - Artificial intelligence
 - Cybersecurity
