@@ -5,6 +5,13 @@ date = "2024-08-06"
 author = "Kevin Mayer"
 +++
 
+I supervise various topics in the following topics:
+- Digital forensics
+- Artificial intelligence
+- Cybersecurity
+
+Feel free to reach out to me.
+
 | Type | Title | Name | Year | Link |
 | ---- | ----- | ---- | ---- | ---- |
 | B.Sc. | Visualization of Contextual Information in the Field of Automotive Digital Forensics | Julian Marius Gänsbauer | 2022 | [Thesis](/thesis/julian-ba-final.pdf) |
