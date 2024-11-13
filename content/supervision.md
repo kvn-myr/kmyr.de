@@ -19,7 +19,7 @@ Feel free to reach out to me.
 | B.Sc. | KI-basiert versus klassisch - File Carving in der digitalen Fahrzeugforensik | Lea Achter | 2024 | [Thesis](/thesis/KI_basiert_versus_klassisch_File_Carving_in_der_digitalen_Fahrzeugforensik.pdf) |
 | Pro. Seminar | What is the impact of AI used in digital forensics? | Lukas Frauenknecht | 2024 | [Thesis](/thesis/Lukas_Frauenknecht_ProSemER-SS24_final_Version.pdf) |
 | M.Sc. | Analyzing the Relevance of Forensic Techniques in Comfort Electronics within the Automotive Sector: A Case Study Exploration | Christian Körber | 2024 | [Thesis](/thesis/Analyzing_the_Relevance_of_Forensic_Techniques_in_Comfort_Electronics_within_the_Automotive_Sector__A_Case_Study_Exploration.pdf) |
-| M.Sc. | IT-Security und digitale Forensik: Analyse eines HUK-COBURG Versicherungssensors | Claudius Laves | ongoing | tbd |
+| M.Sc. | IT-Security und digitale Forensik: Analyse eines HUK-COBURG Versicherungssensors | Claudius Laves | 2024 | tbd |
 | M.Sc. | tbd | Jenny Hofbauer | ongoing | tbd |
 | M.Sc. | Vernetzte Computersysteme in modernen Automobilen unter datenschutzrechtlichen Gesichtspunkten | Jörg Kretzschmar | ongoing | tbd |
 | PhD | Cybersecurity of charging infrastrucutre | Jakob Jöw | ongoing | tbd |

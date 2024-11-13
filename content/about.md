@@ -5,11 +5,9 @@ date = "2024-08-07"
 author = "Kevin Mayer"
 +++
 
-Hi! My name is Kevin Mayer. I am a PostDoc researcher for automotive digital forensics and security operations centers at the Technical University Ingolstadt and an associate researcher with the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany. 
+## Publications 
 
-My main research areas are implementation of new methods for extraction and analysis of digital evidence in modern and future automotive systems.
-
-I am working at the CARISSMA Institute of Electric, Connected and Secure Mobility (C-ECOS) for a research project called SELFY. My research focus is on automotive digital forensics and vehicle security operation centers.
+A list of all my publications can be found on my [ORCID](https://orcid.org/0000-0002-5597-3913).
 
 ## Education
 
@@ -34,35 +32,37 @@ I am working at the CARISSMA Institute of Electric, Connected and Secure Mobilit
 
 | | |
 | - | -: |
-| [Digitalcourage e.V.](https://digitalcourage.de/) | 2023--present |
-| [Gesellschaft für Informatik](https://gi.de/) | 2023--present | 
-| [Neuland e.V.](https://neuland-ingolstadt.de/) | 2022--present | 
-| [German Chapter of the ACM e.V.](https://germany.acm.org) | 2021--2024 | 
-| [Chaos Computer Club](https://www.ccc.de/en/club) | 2020--present | 
+| Digitalcourage e.V. | 2023--present |
+| Gesellschaft für Informatik (GI) | 2023--present | 
+| Neuland Ingolstadt e.V. | 2022--present | 
+| German Chapter of the ACM e.V. | 2021--2024 | 
+| Chaos Computer Club| 2020--present | 
 
 
 ## Academic experiences
 
 | | |
-| - | - |
-| [DFRWS](https://dfrws.org/) PC member | 2024--present | 
-| [DFRWS](https://dfrws.org/) APAC reviewer | 2024--present |
-| [DFRWS](https://dfrws.org/) EU reviewer | 2022--present | 
-| [SECURWARE](https://iaria.org/conferences/SECURWARE.html) conference | 2022, 2024 |
-| Organization committee of the [ACM CSCS](https://acm-cscs.org/) | 2020--2022| 
+| - | - | -: |
+| DFRWS EU | PC member | 2024--present | 
+| IARA SECURWARE | Session chair | 2024 |
+| DFRWS APAC | sub-reviewer | 2024 |
+| DFRWS EU | sub-reviewer | 2022--2024 | 
+| ACM CSCS | Organization committee | 2020--2022| 
+| IARA SECURWARE | reviewer | 2022, 2024 |
 
 
 ## Public speaker
 
 | | | |
 | - | - | -: |
+| 37C3 | Unlocking the Road Ahead: Automotive Digital Forensics ([Recording](https://www.youtube.com/watch?v=PqQC75EE6zY)) | 2024 |
 | 9th EU MITRE ATT&CK Community Workshop | Defense and Detection in Depth using MITRE ATT&CK, MITRE D3FEND, and NIST SP 800-53 | 2022 |
-| IARA SECURWARE Tutorial | Automotive Forensics - A Hans-on Showcase [Recording](https://www.youtube.com/watch?v=QoIs4ndAnQU) | 2021 |
-| Radar2 Conference (r2con) | Where is my Ransom? Hunting for Ransomware Gangs using radare2 and Yara [Recording](https://www.youtube.com/watch?v=g39hut-csYE) | 2020 |
-| CS3 Stockholm (CS3STHLM) | Automotive DoIP and forensic analysis for automotive [Recording](https://www.youtube.com/watch?v=I1Uk5nEoKvk) | 2019 |
+| IARA SECURWARE Tutorial | Automotive Forensics - A Hans-on Showcase ([Recording](https://www.youtube.com/watch?v=QoIs4ndAnQU)) | 2021 |
+| Radar2 Conference (r2con) | Where is my Ransom? Hunting for Ransomware Gangs using radare2 and Yara ([Recording](https://www.youtube.com/watch?v=g39hut-csYE)) | 2020 |
+| CS3 Stockholm (CS3STHLM) | Automotive DoIP and forensic analysis for automotive ([Recording](https://www.youtube.com/watch?v=I1Uk5nEoKvk)) | 2019 |
 | 5th International VDI Conference - Cyber Security for Vehicles | Challenges and Opportunities in Forensic Anlaysis for State-of-the-art and Future Vehicles | 2019 |
 
 ## Impressum
 
 Name: Kevin Mayer\
-Contact: [mail@kmyr.de](mailto:mail@kmyr.de)
+Contact: mail[at]kmyr[dot]de
