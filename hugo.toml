@@ -8,20 +8,16 @@ tag = 'tags'
 
 [params]
 # Appearance settings
-theme = 'auto'
+theme = 'typo'
 colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
 #homeIntroTitle = 'Welcome to my website!'
 homeIntroContent = """
-Hi! My name is Dr.-Ing. Kevin Mayer. I am a postdoctoral researcher with the lab of Prof. Felix Freiling ([i1](https://www.cs1.tf.fau.de/)) from the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.
+Hi! My name is Dr.-Ing. Kevin Mayer. I am a postdoctoral researcher with the "IT Security Infrastructures Lab" ([i1](https://www.cs1.tf.fau.de/)) from the Friedrich-Alexander-University Erlangen-Nürnberg (FAU) in Germany.
 
-My main research areas are 
-- digital forensics, 
-- artificial intelligence, and 
-- vehicle digital forensics.
-
+My main research areas are (vehicle) digital forensics and general information security topics.
 """
 
 # Collection to display on home

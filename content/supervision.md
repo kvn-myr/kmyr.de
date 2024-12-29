@@ -5,10 +5,11 @@ date = "2024-08-06"
 author = "Kevin Mayer"
 +++
 
-I supervise various topics in the following domains:
-- Digital forensics
+I supervise topics in the following domains:
+
+- (Vehicle) digital forensics
 - Artificial intelligence
-- Cybersecurity
+- Information security
 
 Feel free to reach out to me.
 
@@ -19,8 +20,9 @@ Feel free to reach out to me.
 | B.Sc. | KI-basiert versus klassisch - File Carving in der digitalen Fahrzeugforensik | Lea Achter | 2024 | [Thesis](/thesis/KI_basiert_versus_klassisch_File_Carving_in_der_digitalen_Fahrzeugforensik.pdf) |
 | Pro. Seminar | What is the impact of AI used in digital forensics? | Lukas Frauenknecht | 2024 | [Thesis](/thesis/Lukas_Frauenknecht_ProSemER-SS24_final_Version.pdf) |
 | M.Sc. | Analyzing the Relevance of Forensic Techniques in Comfort Electronics within the Automotive Sector: A Case Study Exploration | Christian Körber | 2024 | [Thesis](/thesis/Analyzing_the_Relevance_of_Forensic_Techniques_in_Comfort_Electronics_within_the_Automotive_Sector__A_Case_Study_Exploration.pdf) |
-| M.Sc. | IT-Security und digitale Forensik: Analyse eines HUK-COBURG Versicherungssensors | Claudius Laves | 2024 | tbd |
-| M.Sc. | tbd | Jenny Hofbauer | ongoing | tbd |
+| M.Sc. | IT-Security und digitale Forensik: Analyse eines HUK-COBURG Versicherungssensors | Claudius Laves | 2024 | [Thesis](/thesis/Master_Thesis_Claudius.pdf) |
+| M.Sc. | Data-Driven Custom Decaying Models for Indicators of Compromise in Cyber Threat Intelligence | Jenny Hofbauer | 2024 | tbd |
 | M.Sc. | Vernetzte Computersysteme in modernen Automobilen unter datenschutzrechtlichen Gesichtspunkten | Jörg Kretzschmar | ongoing | tbd |
+| M.Sc. | tbd | Fabian | ongoing | tbd |
 | PhD | Cybersecurity of charging infrastrucutre | Jakob Jöw | ongoing | tbd |
 | PhD | Advanced attacker modeling in the design phase of the cybersecurity lifecycle | Tina Volkersdorfer | ongoing | tbd |
